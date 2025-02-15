@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "Lamzu Aurora Shortcut",
-  "version": "1.0",
+  "version": "1.1",
   "description": "Opens Lamzu Aurora in a new Chrome tab",
   "action": {
     "default_icon": {
@@ -14,9 +14,6 @@
   "background": {
     "service_worker": "background.js"
   },
-  "permissions": [
-    "tabs"
-  ],
   "icons": {
     "16": "images/logo.png",
     "32": "images/logo.png",
